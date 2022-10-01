@@ -1,0 +1,20 @@
+name: Upload Release 
+on:
+  release:
+   types: [published]
+jobs:
+  build:
+   if: "!github.event.release.prerelease"
+   runs-on: macos-latest
+   steps:
+   - uses: actions/checkouti@master
+   - run: 1
+        echo Sprerelease
+        echo hello 
+        echo Slogin 
+        echo hello
+        echo $GIT_CONTEXT
+     env:
+        GIT_CONTEXT: $ff tojson(github) }}
+        prerelease: $ff github.event.release.prerelease }} 
+        login: ${{ github.event.release.created_at}}
