@@ -1,0 +1,12 @@
+name: Publish Pre-Release 
+on:
+  release:
+   types: [published]
+jobs:
+  build:
+   if: "!github.event.release.prerelease"
+   runs-on: ubuntu-latest
+   steps:
+   - uses: actions/checkouti@master
+   - run: |
+        echo hello
