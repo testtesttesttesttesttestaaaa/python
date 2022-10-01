@@ -7,7 +7,7 @@
 - [ ] test.pypi publisher on pre-release
 - [ ] auto-assign
 - [ ] flake 8 - pylint
-- [ ] 
+- [ ] pytest
 
 ### CI: summand.dev
 - [ ] netlify
