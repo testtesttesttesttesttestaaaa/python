@@ -13,7 +13,7 @@
 - [ ] netlify
 - [ ] Imgbot 
 - [ ] proof-html
-4 [ ] auto-assign
+- [ ] auto-assign
 
 ### Issue template
 
