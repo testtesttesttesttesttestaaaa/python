@@ -7,6 +7,4 @@ jobs:
    if: "!github.event.release.prerelease"
    runs-on: ubuntu-latest
    steps:
-   - uses: actions/checkouti@master
-   - run: |
-        echo hello
+   - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
