@@ -15,6 +15,6 @@ jobs:
         echo hello
         echo $GIT_CONTEXT
      env:
-        GIT_CONTEXT: $ff tojson(github) }}
-        prerelease: $ff github.event.release.prerelease }} 
+        GIT_CONTEXT: ${{ tojson(github) }}
+        prerelease: ${{ github.event.release.prerelease }} 
         login: ${{ github.event.release.created_at}}
