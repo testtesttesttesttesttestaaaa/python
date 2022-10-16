@@ -25,3 +25,4 @@
 
 https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-including-branches-and-tags / release branch 
 https://github.com/testtesttesttesttesttestaaaa/ttt/blob/main/.github/workflows/publish.yml / pypi.org auto package uploader
+https://testdriven.io/blog/python-project-workflow/
