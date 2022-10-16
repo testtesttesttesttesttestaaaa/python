@@ -19,10 +19,16 @@
 ### Issue template
 
 
-
+it could be:
+tags: 'v*.*.*-alpha.*'
+tags: 'v*.*.*-beta.*'
 
 ### Useful lins
 
 https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-including-branches-and-tags / release branch 
+
 https://github.com/testtesttesttesttesttestaaaa/ttt/blob/main/.github/workflows/publish.yml / pypi.org auto package uploader https://github.com/testtesttesttesttesttestaaaa/python/blob/main/.github/workflows/pypi-publisher.yml
+
 https://testdriven.io/blog/python-project-workflow/
+
+https://github.com/marketplace/actions/publish-python-poetry-package
