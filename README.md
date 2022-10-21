@@ -3,8 +3,8 @@
 # TODO:
 
 ### CI: Summand
-- [ ] pypi publisher on new release / https://github.com/marketplace/actions/publish-python-poetry-package
-- [ ] test.pypi publisher on pre-release
+- [x] pypi publisher on new release / https://github.com/marketplace/actions/publish-python-poetry-package
+- [x] test.pypi publisher on pre-release
 - [ ] auto-assign/ made
 - [ ] pylint / made
 - [ ] pytest
@@ -20,8 +20,11 @@
 
 
 it could be:
+
+for test-release
 tags: 'v*.*.*-alpha.*'
 tags: 'v*.*.*-beta.*'
+tags: 'v*.*.*-rc.*'
 
 ### Useful lins
 
